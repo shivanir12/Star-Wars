@@ -1,14 +1,14 @@
 {
   "name": "star-wars-all-and-random-names",
-  "version": "1.1.0",
   "description": "get a random star war",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha ./src/index.test.js -w"
+    "test": "mocha ./src/index.test.js -w",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shivanir12/Star-Wars.git"
+    "url": "https://github.com/shivanir12/Star-Wars.git"
   },
   "keywords": [
     "star",
@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "semantic-release": "^4.3.5"
   }
 }
